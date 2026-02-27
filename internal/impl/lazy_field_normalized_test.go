@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protopack"
 
-	lnwtpb "google.golang.org/protobuf/internal/testprotos/lazy"
+	lnwtpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/lazy"
 )
 
 func unmarshalsTheSame(b []byte, expected *lnwtpb.FTop) error {

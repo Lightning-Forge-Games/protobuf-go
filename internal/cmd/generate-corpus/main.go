@@ -15,12 +15,12 @@ import (
 	"log"
 	"os"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protojson"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/prototext"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
 
-	fuzzpb "google.golang.org/protobuf/internal/testprotos/fuzz"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	fuzzpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/fuzz"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
 )
 
 var messages = []proto.Message{

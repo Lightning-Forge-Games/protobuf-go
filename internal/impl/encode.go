@@ -9,10 +9,10 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protolazy"
-	"google.golang.org/protobuf/proto"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/flags"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protolazy"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	piface "github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface"
 )
 
 type marshalOptions struct {

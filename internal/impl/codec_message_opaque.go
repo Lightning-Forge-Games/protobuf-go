@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/order"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/encoding/messageset"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/filedesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/order"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	piface "github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface"
 )
 
 func (mi *MessageInfo) makeOpaqueCoderMethods(t reflect.Type, si opaqueStructInfo) {

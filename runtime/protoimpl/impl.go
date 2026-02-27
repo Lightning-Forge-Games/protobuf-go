@@ -12,10 +12,10 @@
 package protoimpl
 
 import (
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/filetype"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protolazy"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/filedesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/filetype"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/impl"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protolazy"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

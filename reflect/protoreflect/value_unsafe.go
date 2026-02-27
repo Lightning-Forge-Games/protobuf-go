@@ -7,7 +7,7 @@ package protoreflect
 import (
 	"unsafe"
 
-	"google.golang.org/protobuf/internal/pragma"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/pragma"
 )
 
 type (

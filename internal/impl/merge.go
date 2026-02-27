@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface"
 )
 
 type mergeOptions struct{}

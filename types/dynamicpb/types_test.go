@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/dynamicpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/dynamicpb"
 
-	registrypb "google.golang.org/protobuf/internal/testprotos/registry"
+	registrypb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/registry"
 )
 
 var _ protoregistry.ExtensionTypeResolver = &dynamicpb.Types{}

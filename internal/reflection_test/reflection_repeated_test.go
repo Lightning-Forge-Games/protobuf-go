@@ -7,8 +7,8 @@ package reflection_test
 import (
 	"testing"
 
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
+	testopaquepb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
 )
 
 func TestOpaqueRepeated(t *testing.T) {

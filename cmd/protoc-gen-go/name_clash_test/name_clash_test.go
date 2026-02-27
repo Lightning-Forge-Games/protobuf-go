@@ -8,17 +8,17 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	descpb "google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/gofeaturespb"
-	"google.golang.org/protobuf/types/pluginpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/compiler/protogen"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/genid"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protodesc"
+	descpb "github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/gofeaturespb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/pluginpb"
 
-	hpb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
-	opb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
-	pb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
+	hpb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
+	opb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
+	pb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
 )
 
 // TestOpenMangling tests the backwards compatible mangling of fields

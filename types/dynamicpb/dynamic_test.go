@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/prototest"
-	"google.golang.org/protobuf/types/dynamicpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/prototest"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/dynamicpb"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

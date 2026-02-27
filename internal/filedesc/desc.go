@@ -11,14 +11,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/descfmt"
-	"google.golang.org/protobuf/internal/descopts"
-	"google.golang.org/protobuf/internal/encoding/defval"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/descfmt"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/descopts"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/encoding/defval"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/encoding/messageset"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/genid"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/pragma"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/strs"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
 )
 
 // Edition is an Enum for proto2.Edition

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
 
-	_ "google.golang.org/protobuf/internal/testprotos/textpbeditions"
-	_ "google.golang.org/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpbeditions"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpbeditions/textpbeditions_opaque"
 )
 
 var relatedMessages = func() map[protoreflect.MessageType][]protoreflect.MessageType {

@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	test3openpb "google.golang.org/protobuf/internal/testprotos/test3"
-	test3hybridpb "google.golang.org/protobuf/internal/testprotos/test3/test3_hybrid"
-	test3opaquepb "google.golang.org/protobuf/internal/testprotos/test3/test3_opaque"
-	testhybridpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	test3openpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3"
+	test3hybridpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3/test3_hybrid"
+	test3opaquepb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3/test3_opaque"
+	testhybridpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
 )
 
 func TestOpenWhich(t *testing.T) {

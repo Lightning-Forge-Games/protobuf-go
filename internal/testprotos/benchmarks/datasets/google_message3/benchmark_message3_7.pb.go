@@ -34,8 +34,8 @@
 package google_message3
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/Lightning-Forge-Games/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

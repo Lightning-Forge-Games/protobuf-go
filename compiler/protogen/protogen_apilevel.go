@@ -7,10 +7,10 @@ package protogen
 import (
 	"fmt"
 
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/types/gofeaturespb"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/filedesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/genid"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/gofeaturespb"
 )
 
 func fileAPILevel(fd protoreflect.FileDescriptor, def gofeaturespb.GoFeatures_APILevel) gofeaturespb.GoFeatures_APILevel {

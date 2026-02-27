@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/prototext"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
+	testeditionspb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions"
 )
 
 func TestCheckInitializedErrors(t *testing.T) {

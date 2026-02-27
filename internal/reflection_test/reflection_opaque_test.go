@@ -9,10 +9,10 @@ import (
 	"math"
 	"testing"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/prototest"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/prototest"
 )
 
 var enableLazy = proto.UnmarshalOptions{}

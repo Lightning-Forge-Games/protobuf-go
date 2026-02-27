@@ -12,18 +12,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/prototext"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/detrand"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/flags"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protobuild"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protopack"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	pbeditions "google.golang.org/protobuf/internal/testprotos/textpbeditions"
-	"google.golang.org/protobuf/types/known/anypb"
+	pb2 "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpb2"
+	pb3 "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpb3"
+	pbeditions "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpbeditions"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/known/anypb"
 )
 
 func init() {

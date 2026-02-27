@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/order"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/encoding/messageset"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/order"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface"
 )
 
 // coderMessageInfo contains per-message information used by the fast-path functions.

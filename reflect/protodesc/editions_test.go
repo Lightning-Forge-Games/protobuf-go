@@ -7,13 +7,13 @@ package protodesc
 import (
 	"testing"
 
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/dynamicpb"
-	"google.golang.org/protobuf/types/gofeaturespb"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/genid"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/dynamicpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/gofeaturespb"
 )
 
 func TestGoFeatures_NotExpectedType(t *testing.T) {

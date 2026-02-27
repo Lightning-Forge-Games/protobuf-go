@@ -5,5 +5,5 @@
 package bug1052_test
 
 import (
-	_ "google.golang.org/protobuf/internal/testprotos/legacy/bug1052"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/legacy/bug1052"
 )

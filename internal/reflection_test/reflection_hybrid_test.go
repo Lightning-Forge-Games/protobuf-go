@@ -9,9 +9,9 @@ import (
 	"math"
 	"testing"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/prototest"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/prototest"
 )
 
 func TestOpen3Concrete(t *testing.T) {

@@ -19,7 +19,7 @@ It has these top-level messages:
 */
 package proto3_20180125_92554152
 
-import proto "google.golang.org/protobuf/internal/protolegacy"
+import proto "github.com/Lightning-Forge-Games/protobuf-go/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 

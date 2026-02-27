@@ -5,16 +5,16 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/flags"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protobuild"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protopack"
 
-	"google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/msetextpb"
+	_ "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
 )
 
 func init() {

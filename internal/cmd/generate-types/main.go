@@ -216,13 +216,13 @@ func writeSource(file, src string) {
 		"sync",
 		"unicode/utf8",
 		"",
-		"google.golang.org/protobuf/internal/descfmt",
-		"google.golang.org/protobuf/encoding/protowire",
-		"google.golang.org/protobuf/internal/errors",
-		"google.golang.org/protobuf/internal/strs",
-		"google.golang.org/protobuf/internal/pragma",
-		"google.golang.org/protobuf/reflect/protoreflect",
-		"google.golang.org/protobuf/runtime/protoiface",
+		"github.com/Lightning-Forge-Games/protobuf-go/internal/descfmt",
+		"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire",
+		"github.com/Lightning-Forge-Games/protobuf-go/internal/errors",
+		"github.com/Lightning-Forge-Games/protobuf-go/internal/strs",
+		"github.com/Lightning-Forge-Games/protobuf-go/internal/pragma",
+		"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect",
+		"github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface",
 	} {
 		if pkg == "" {
 			imports = append(imports, "") // blank line between stdlib and proto packages

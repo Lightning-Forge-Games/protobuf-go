@@ -9,12 +9,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	textpb "google.golang.org/protobuf/internal/testprotos/textpb2"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
+	textpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpb2"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/known/anypb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/known/wrapperspb"
 )
 
 func TestReflect(t *testing.T) {

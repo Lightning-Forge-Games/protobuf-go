@@ -12,12 +12,12 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/protolazy"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/errors"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protolazy"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	preg "github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	piface "github.com/Lightning-Forge-Games/protobuf-go/runtime/protoiface"
 )
 
 var enableLazy int32 = func() int32 {

@@ -8,9 +8,9 @@
 package test_nopackage
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/Lightning-Forge-Games/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 	unsafe "unsafe"
 )

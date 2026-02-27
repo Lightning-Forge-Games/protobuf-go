@@ -9,13 +9,13 @@ import (
 	"os"
 	"testing"
 
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/prototext"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/genid"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protocmp"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
 )
 
 func TestAnnotations(t *testing.T) {

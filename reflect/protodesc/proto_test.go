@@ -7,14 +7,14 @@ package protodesc
 import (
 	"testing"
 
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/filedesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoregistry"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protocmp"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/dynamicpb"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/dynamicpb"
 )
 
 func TestEditionsRequired(t *testing.T) {

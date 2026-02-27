@@ -13,11 +13,11 @@ import (
 	"math"
 	"testing"
 
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protodelim"
+	"github.com/Lightning-Forge-Games/protobuf-go/encoding/protowire"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protocmp"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/encoding/protodelim"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/testprotos/test3"
-	"google.golang.org/protobuf/testing/protocmp"
 )
 
 func TestRoundTrip(t *testing.T) {

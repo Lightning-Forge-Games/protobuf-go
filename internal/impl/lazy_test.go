@@ -10,18 +10,18 @@ import (
 	"testing"
 	"unsafe"
 
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/errors"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/flags"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/impl"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/protobuild"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/runtime/protoimpl"
+	"github.com/Lightning-Forge-Games/protobuf-go/testing/protocmp"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/protocmp"
 
-	lazytestpb "google.golang.org/protobuf/internal/testprotos/lazy"
-	"google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	lazytestpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/lazy"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	testpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

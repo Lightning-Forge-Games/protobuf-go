@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	visibilitypb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/visibility"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/types/descriptorpb"
+	visibilitypb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/visibility"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protodesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
 )
 
 func TestVisibility(t *testing.T) {

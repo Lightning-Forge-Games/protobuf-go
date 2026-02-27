@@ -11,17 +11,17 @@ import (
 	"strings"
 	"testing"
 
+	basicpb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/featureresolution"
+	testfeaturespb "github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/features"
+	"github.com/Lightning-Forge-Games/protobuf-go/compiler/protogen"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protodesc"
+	"github.com/Lightning-Forge-Games/protobuf-go/reflect/protoreflect"
+	"github.com/Lightning-Forge-Games/protobuf-go/runtime/protoimpl"
+	descpb "github.com/Lightning-Forge-Games/protobuf-go/types/descriptorpb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/gofeaturespb"
+	"github.com/Lightning-Forge-Games/protobuf-go/types/pluginpb"
 	"github.com/google/go-cmp/cmp"
-	basicpb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/featureresolution"
-	testfeaturespb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/features"
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	descpb "google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/gofeaturespb"
-	"google.golang.org/protobuf/types/pluginpb"
 )
 
 var (

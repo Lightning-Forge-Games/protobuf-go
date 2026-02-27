@@ -7,7 +7,7 @@ package wirefuzz
 import (
 	"testing"
 
-	"google.golang.org/protobuf/internal/fuzztest"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/fuzztest"
 )
 
 func Test(t *testing.T) {

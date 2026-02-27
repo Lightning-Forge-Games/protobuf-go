@@ -25,11 +25,11 @@ import (
 	"testing"
 	"unsafe"
 
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/test/race"
-	mixedpb "google.golang.org/protobuf/internal/testprotos/mixed"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/impl"
+	"github.com/Lightning-Forge-Games/protobuf-go/internal/test/race"
+	mixedpb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/mixed"
+	testopaquepb "github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/Lightning-Forge-Games/protobuf-go/proto"
 )
 
 // To get some output from the subprocess, set this to true
