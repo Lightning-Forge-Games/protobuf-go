@@ -2807,6 +2807,15 @@ func TestUnmarshal(t *testing.T) {
 		inputMessage: &anypb.Any{},
 		inputText:    `{"":}`,
 		wantErr:      `(line 1:5): unexpected token`,
+	}, {
+		desc:         "Reserved field names: present",
+		inputMessage: &testpb.TestReservedFields{},
+		inputText:    `{"bar":231}`,
+	}, {
+		desc:         "Reserved field names: not present",
+		inputMessage: &testpb.TestReservedFields{},
+		inputText:    `{"foo":231}`,
+		wantErr:      `(line 1:2): unknown field "foo"`,
 	}}
 
 	for _, tt := range tests {
