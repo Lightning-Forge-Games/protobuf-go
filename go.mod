@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module github.com/Lightning-Forge-Games/protobuf-go
 
 go 1.23
 
