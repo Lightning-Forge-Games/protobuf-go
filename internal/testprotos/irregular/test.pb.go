@@ -189,7 +189,7 @@ const file_internal_testprotos_irregular_test_proto_rawDesc = "" +
 	"\x17MapAberrantMessageEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12>\n" +
 	"\x05value\x18\x02 \x01(\v2(.goproto.proto.irregular.AberrantMessageR\x05value:\x028\x01B\a\n" +
-	"\x05unionB:Z8github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/irregular"
+	"\x05unionB:Z8google.golang.org/protobuf/internal/testprotos/irregular"
 
 var (
 	file_internal_testprotos_irregular_test_proto_rawDescOnce sync.Once

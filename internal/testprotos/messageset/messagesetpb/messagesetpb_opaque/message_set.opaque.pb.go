@@ -136,7 +136,7 @@ const file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_messa
 	"MessageSet*\b\b\x04\x10\xff\xff\xff\xff\a:\x02\b\x01\"c\n" +
 	"\x13MessageSetContainer\x12L\n" +
 	"\vmessage_set\x18\x01 \x01(\v2+.opaque.goproto.proto.messageset.MessageSetR\n" +
-	"messageSetBdZZgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
+	"messageSetBdZZgoogle.golang.org/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque\x92\x03\x05\xd2>\x02\x10\x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_message_set_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_internal_testprotos_messageset_messagesetpb_messagesetpb_opaque_message_set_opaque_proto_goTypes = []any{

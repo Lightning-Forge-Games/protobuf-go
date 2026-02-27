@@ -138,7 +138,7 @@ const file_cmd_protoc_gen_go_testdata_retention_options_message_proto_rawDesc = 
 	"!imported_runtime_retention_option\x12\x1c.google.protobuf.FileOptions\x18\xeaů\xf4\x01 \x01(\x05B\x03\x88\x01\x01R\x1eimportedRuntimeRetentionOption:n\n" +
 	" imported_source_retention_option\x12\x1c.google.protobuf.FileOptions\x18\xa7\xb1\xb9\xf4\x01 \x01(\x05B\x03\x88\x01\x02R\x1dimportedSourceRetentionOption:`\n" +
 	"\vfile_option\x12\x1c.google.protobuf.FileOptions\x18\x80\xf2\xde\xf0\x01 \x01(\v2\x1d.testretention.OptionsMessageR\n" +
-	"fileOptionBAZ?github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/retention"
+	"fileOptionBAZ?google.golang.org/protobuf/cmd/protoc-gen-go/testdata/retention"
 
 var (
 	file_cmd_protoc_gen_go_testdata_retention_options_message_proto_rawDescOnce sync.Once

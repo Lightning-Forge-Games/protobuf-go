@@ -56,7 +56,7 @@ var File_internal_testprotos_test_test_public_proto protoreflect.FileDescriptor
 const file_internal_testprotos_test_test_public_proto_rawDesc = "" +
 	"\n" +
 	"*internal/testprotos/test/test_public.proto\x12\x12goproto.proto.test\"\x15\n" +
-	"\x13PublicImportMessageB5Z3github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test"
+	"\x13PublicImportMessageB5Z3google.golang.org/protobuf/internal/testprotos/test"
 
 var (
 	file_internal_testprotos_test_test_public_proto_rawDescOnce sync.Once

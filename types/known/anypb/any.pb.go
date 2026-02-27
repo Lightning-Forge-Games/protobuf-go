@@ -418,7 +418,7 @@ const file_google_protobuf_any_proto_rawDesc = "" +
 	"\x03Any\x12\x19\n" +
 	"\btype_url\x18\x01 \x01(\tR\atypeUrl\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\fR\x05valueBv\n" +
-	"\x13com.google.protobufB\bAnyProtoP\x01Z,github.com/Lightning-Forge-Games/protobuf-go/types/known/anypb\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\bAnyProtoP\x01Z,google.golang.org/protobuf/types/known/anypb\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_any_proto_rawDescOnce sync.Once

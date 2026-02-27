@@ -89,7 +89,7 @@ const file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_rawDesc = "
 	"\vTHIRTYSEVEN\x10%\x12\x0e\n" +
 	"\n" +
 	"SIXTYSEVEN\x10C\x12\x15\n" +
-	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01BMZAgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/enums/enums_opaque\x92\x03\a\xd2>\x02\x10\x03\x10\x02b\beditionsp\xe8\a"
+	"\bNEGATIVE\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01BMZAgoogle.golang.org/protobuf/internal/testprotos/enums/enums_opaque\x92\x03\a\xd2>\x02\x10\x03\x10\x02b\beditionsp\xe8\a"
 
 var file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_internal_testprotos_enums_enums_opaque_enums_opaque_proto_goTypes = []any{

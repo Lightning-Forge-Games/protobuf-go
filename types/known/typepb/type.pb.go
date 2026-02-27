@@ -815,7 +815,7 @@ const file_google_protobuf_type_proto_rawDesc = "" +
 	"\rSYNTAX_PROTO2\x10\x00\x12\x11\n" +
 	"\rSYNTAX_PROTO3\x10\x01\x12\x13\n" +
 	"\x0fSYNTAX_EDITIONS\x10\x02B{\n" +
-	"\x13com.google.protobufB\tTypeProtoP\x01Z-github.com/Lightning-Forge-Games/protobuf-go/types/known/typepb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
+	"\x13com.google.protobufB\tTypeProtoP\x01Z-google.golang.org/protobuf/types/known/typepb\xf8\x01\x01\xa2\x02\x03GPB\xaa\x02\x1eGoogle.Protobuf.WellKnownTypesb\x06proto3"
 
 var (
 	file_google_protobuf_type_proto_rawDescOnce sync.Once

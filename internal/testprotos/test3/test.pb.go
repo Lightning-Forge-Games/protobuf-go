@@ -1247,7 +1247,7 @@ const file_internal_testprotos_test3_test_proto_rawDesc = "" +
 	"\fFOREIGN_ZERO\x10\x00\x12\x0f\n" +
 	"\vFOREIGN_FOO\x10\x04\x12\x0f\n" +
 	"\vFOREIGN_BAR\x10\x05\x12\x0f\n" +
-	"\vFOREIGN_BAZ\x10\x06B6Z4github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/test3b\x06proto3"
+	"\vFOREIGN_BAZ\x10\x06B6Z4google.golang.org/protobuf/internal/testprotos/test3b\x06proto3"
 
 var (
 	file_internal_testprotos_test3_test_proto_rawDescOnce sync.Once

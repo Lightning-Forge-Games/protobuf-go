@@ -470,7 +470,7 @@ const file_cmd_protoc_gen_go_testdata_protoeditions_enum_proto_rawDesc = "" +
 	"\x17LegacyUnmarshalJSONTest\x12\a\n" +
 	"\x03FOO\x10\x00\x12\a\n" +
 	"\x03BAR\x10\x01\x12\a\n" +
-	"\x03BAZ\x10\x04\x1a\a:\x05\xd2>\x02\b\x01BJZCgithub.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/protoeditions\x92\x03\x02\x10\x02b\beditionsp\xe8\a"
+	"\x03BAZ\x10\x04\x1a\a:\x05\xd2>\x02\b\x01BJZCgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/protoeditions\x92\x03\x02\x10\x02b\beditionsp\xe8\a"
 
 var (
 	file_cmd_protoc_gen_go_testdata_protoeditions_enum_proto_rawDescOnce sync.Once

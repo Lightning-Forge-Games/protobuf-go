@@ -106,7 +106,7 @@ const file_internal_testprotos_testeditions_testeditions_hybrid_test_import_hybr
 	"\rImportMessage*\x1d\n" +
 	"\n" +
 	"ImportEnum\x12\x0f\n" +
-	"\vIMPORT_ZERO\x10\x00BYZOgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
+	"\vIMPORT_ZERO\x10\x00BYZOgoogle.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
 
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_import_hybrid_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_internal_testprotos_testeditions_testeditions_hybrid_test_import_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

@@ -107,7 +107,7 @@ const file_cmd_protoc_gen_go_testdata_imports_test_import_all_proto_rawDesc = ""
 	".test.a.M2R\x03am2\x12\"\n" +
 	"\x03bm1\x18\x05 \x01(\v2\x10.test.b.part1.M1R\x03bm1\x12\"\n" +
 	"\x03bm2\x18\x06 \x01(\v2\x10.test.b.part2.M2R\x03bm2\x12\x18\n" +
-	"\x03fmt\x18\a \x01(\v2\x06.fmt.MR\x03fmtB?Z=github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/importsb\x06proto3"
+	"\x03fmt\x18\a \x01(\v2\x06.fmt.MR\x03fmtB?Z=google.golang.org/protobuf/cmd/protoc-gen-go/testdata/importsb\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_test_import_all_proto_rawDescOnce sync.Once

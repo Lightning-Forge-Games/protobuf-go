@@ -348,7 +348,7 @@ const file_cmd_protoc_gen_go_testdata_features_test_features_proto_rawDesc = "" 
 	"\x06VALUE4\x10\x04\x12\n" +
 	"\n" +
 	"\x06VALUE5\x10\x050\x01:h\n" +
-	"\rtest_features\x12\x1b.google.protobuf.FeatureSet\x18\x8fN \x01(\v2%.goproto.protoc.features.TestFeaturesR\ftestFeaturesB@Z>github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/featuresb\beditionsp\xe9\a"
+	"\rtest_features\x12\x1b.google.protobuf.FeatureSet\x18\x8fN \x01(\v2%.goproto.protoc.features.TestFeaturesR\ftestFeaturesB@Z>google.golang.org/protobuf/cmd/protoc-gen-go/testdata/featuresb\beditionsp\xe9\a"
 
 var file_cmd_protoc_gen_go_testdata_features_test_features_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_cmd_protoc_gen_go_testdata_features_test_features_proto_msgTypes = make([]protoimpl.MessageInfo, 1)

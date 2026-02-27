@@ -466,7 +466,7 @@ const file_cmd_protoc_gen_go_testdata_proto2_enum_proto_rawDesc = "" +
 	"\n" +
 	"duplicate1\x10\x01\x12\x0e\n" +
 	"\n" +
-	"duplicate2\x10\x01\x1a\x02\x10\x01\"\x04\b\x02\x10\x02\"\x04\b\x03\x10\x03*\tRESERVED1*\tRESERVED2B>Z<github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/proto2"
+	"duplicate2\x10\x01\x1a\x02\x10\x01\"\x04\b\x02\x10\x02\"\x04\b\x03\x10\x03*\tRESERVED1*\tRESERVED2B>Z<google.golang.org/protobuf/cmd/protoc-gen-go/testdata/proto2"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto2_enum_proto_rawDescOnce sync.Once

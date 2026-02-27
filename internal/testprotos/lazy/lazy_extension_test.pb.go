@@ -592,7 +592,7 @@ const file_internal_testprotos_lazy_lazy_extension_test_proto_rawDesc = "" +
 	"\vinteger_bat\x12\x19.lazy_extension_test.Tree\x18\xa7\xfa\xe3\xa4\x01 \x01(\rR\n" +
 	"integerBat:h\n" +
 	"\vpipistrelle\x12\x19.lazy_extension_test.Tree\x18\xa8\xfa\xe3\xa4\x01 \x01(\v2 .lazy_extension_test.PipistrelleB\x05\xaa\x01\x02(\x02R\vpipistrelle:k\n" +
-	"\fpipistrelles\x12\x19.lazy_extension_test.Tree\x18\xa9\xfa\xe3\xa4\x01 \x03(\v2!.lazy_extension_test.PipistrellesB\x05\xaa\x01\x02(\x02R\fpipistrellesB5Z3github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/lazyb\beditionsp\xe8\a"
+	"\fpipistrelles\x12\x19.lazy_extension_test.Tree\x18\xa9\xfa\xe3\xa4\x01 \x03(\v2!.lazy_extension_test.PipistrellesB\x05\xaa\x01\x02(\x02R\fpipistrellesB5Z3google.golang.org/protobuf/internal/testprotos/lazyb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_lazy_lazy_extension_test_proto_rawDescOnce sync.Once

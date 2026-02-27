@@ -1980,7 +1980,7 @@ const file_internal_testprotos_textpb2_test_proto_rawDesc = "" +
 	"\frpt_ext_enum\x12\x0f.pb2.Extensions\x18  \x03(\x0e2\t.pb2.EnumR\n" +
 	"rptExtEnum:B\n" +
 	"\x0erpt_ext_nested\x12\x0f.pb2.Extensions\x18! \x03(\v2\v.pb2.NestedR\frptExtNested:a\n" +
-	"\x15message_set_extension\x12\x0f.pb2.MessageSet\x182 \x01(\v2\x1c.pb2.FakeMessageSetExtensionR\x13messageSetExtensionB8Z6github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpb2"
+	"\x15message_set_extension\x12\x0f.pb2.MessageSet\x182 \x01(\v2\x1c.pb2.FakeMessageSetExtensionR\x13messageSetExtensionB8Z6google.golang.org/protobuf/internal/testprotos/textpb2"
 
 var (
 	file_internal_testprotos_textpb2_test_proto_rawDescOnce sync.Once

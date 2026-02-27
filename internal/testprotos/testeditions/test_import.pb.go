@@ -102,7 +102,7 @@ const file_internal_testprotos_testeditions_test_import_proto_rawDesc = "" +
 	"\rImportMessage*\x1d\n" +
 	"\n" +
 	"ImportEnum\x12\x0f\n" +
-	"\vIMPORT_ZERO\x10\x00B=Z;github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/testeditionsb\beditionsp\xe8\a"
+	"\vIMPORT_ZERO\x10\x00B=Z;google.golang.org/protobuf/internal/testprotos/testeditionsb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_testeditions_test_import_proto_rawDescOnce sync.Once

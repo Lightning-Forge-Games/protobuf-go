@@ -2331,7 +2331,7 @@ const file_internal_testprotos_textpbeditions_test2_proto_rawDesc = "" +
 	"\frpt_ext_enum\x12\x16.pbeditions.Extensions\x18  \x03(\x0e2\x10.pbeditions.EnumR\n" +
 	"rptExtEnum:P\n" +
 	"\x0erpt_ext_nested\x12\x16.pbeditions.Extensions\x18! \x03(\v2\x12.pbeditions.NestedR\frptExtNested:o\n" +
-	"\x15message_set_extension\x12\x16.pbeditions.MessageSet\x182 \x01(\v2#.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBFZ=github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpbeditions\x92\x03\x04\x10\x02 \x03b\beditionsp\xe8\a"
+	"\x15message_set_extension\x12\x16.pbeditions.MessageSet\x182 \x01(\v2#.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBFZ=google.golang.org/protobuf/internal/testprotos/textpbeditions\x92\x03\x04\x10\x02 \x03b\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_textpbeditions_test2_proto_rawDescOnce sync.Once

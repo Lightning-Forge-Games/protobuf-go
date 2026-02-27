@@ -258,7 +258,7 @@ const file_internal_testprotos_messageset_msetextpb_msetextpb_proto_rawDesc = ""
 	"\x0frequired_field1\x18\x01 \x01(\x05B\x05\xaa\x01\x02\b\x03R\x0erequiredField12\x84\x01\n" +
 	"\x17message_set_extrequired\x12$.goproto.proto.messageset.MessageSet\x18\xea\a \x01(\v2%.goproto.proto.messageset.ExtRequiredR\x15messageSetExtrequired\"\x97\x01\n" +
 	"\x0eExtLargeNumber2\x84\x01\n" +
-	"\x14message_set_extlarge\x12$.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2(.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeBEZCgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/messageset/msetextpbb\beditionsp\xe8\a"
+	"\x14message_set_extlarge\x12$.goproto.proto.messageset.MessageSet\x18\x80\x80\x80\x80\x02 \x01(\v2(.goproto.proto.messageset.ExtLargeNumberR\x12messageSetExtlargeBEZCgoogle.golang.org/protobuf/internal/testprotos/messageset/msetextpbb\beditionsp\xe8\a"
 
 var (
 	file_internal_testprotos_messageset_msetextpb_msetextpb_proto_rawDescOnce sync.Once

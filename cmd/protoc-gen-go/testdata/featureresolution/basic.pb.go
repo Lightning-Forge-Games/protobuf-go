@@ -290,7 +290,7 @@ const file_cmd_protoc_gen_go_testdata_featureresolution_basic_proto_rawDesc = ""
 	"\n" +
 	"TopService\x12v\n" +
 	"\x06Method\x124.net.proto2.go.testdata.featureresolution.TopMessage\x1a4.net.proto2.go.testdata.featureresolution.TopMessage\"\x00:F\n" +
-	"\x03ext\x124.net.proto2.go.testdata.featureresolution.TopMessage\x18h \x01(\tR\x03extBIZGgithub.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/featureresolutionb\beditionsp\xe8\a"
+	"\x03ext\x124.net.proto2.go.testdata.featureresolution.TopMessage\x18h \x01(\tR\x03extBIZGgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/featureresolutionb\beditionsp\xe8\a"
 
 var (
 	file_cmd_protoc_gen_go_testdata_featureresolution_basic_proto_rawDescOnce sync.Once

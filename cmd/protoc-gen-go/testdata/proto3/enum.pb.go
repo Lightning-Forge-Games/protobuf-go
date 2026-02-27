@@ -72,7 +72,7 @@ const file_cmd_protoc_gen_go_testdata_proto3_enum_proto_rawDesc = "" +
 	"\x04Enum\x12\b\n" +
 	"\x04ZERO\x10\x00\x12\a\n" +
 	"\x03ONE\x10\x01\x12\a\n" +
-	"\x03TWO\x10\x02B>Z<github.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
+	"\x03TWO\x10\x02B>Z<google.golang.org/protobuf/cmd/protoc-gen-go/testdata/proto3b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_proto3_enum_proto_rawDescOnce sync.Once

@@ -56,7 +56,7 @@ var File_cmd_protoc_gen_go_testdata_imports_test_a_2_m4_proto protoreflect.FileD
 const file_cmd_protoc_gen_go_testdata_imports_test_a_2_m4_proto_rawDesc = "" +
 	"\n" +
 	"4cmd/protoc-gen-go/testdata/imports/test_a_2/m4.proto\x12\x06test.a\"\x04\n" +
-	"\x02M4BHZFgithub.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/imports/test_a_2b\x06proto3"
+	"\x02M4BHZFgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_2b\x06proto3"
 
 var (
 	file_cmd_protoc_gen_go_testdata_imports_test_a_2_m4_proto_rawDescOnce sync.Once

@@ -4022,7 +4022,7 @@ const file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque
 	"\frpt_ext_enum\x12\x1d.opaque.pbeditions.Extensions\x18  \x03(\x0e2\x17.opaque.pbeditions.EnumR\n" +
 	"rptExtEnum:^\n" +
 	"\x0erpt_ext_nested\x12\x1d.opaque.pbeditions.Extensions\x18! \x03(\v2\x19.opaque.pbeditions.NestedR\frptExtNested:}\n" +
-	"\x15message_set_extension\x12\x1d.opaque.pbeditions.MessageSet\x182 \x01(\v2*.opaque.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBaZSgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/textpbeditions/textpbeditions_opaque\x92\x03\t\xd2>\x02\x10\x03\x10\x02 \x03b\beditionsp\xe8\a"
+	"\x15message_set_extension\x12\x1d.opaque.pbeditions.MessageSet\x182 \x01(\v2*.opaque.pbeditions.FakeMessageSetExtensionR\x13messageSetExtensionBaZSgoogle.golang.org/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque\x92\x03\t\xd2>\x02\x10\x03\x10\x02 \x03b\beditionsp\xe8\a"
 
 var file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque_proto_enumTypes = make([]protoimpl.EnumInfo, 4)
 var file_internal_testprotos_textpbeditions_textpbeditions_opaque_test2_opaque_proto_msgTypes = make([]protoimpl.MessageInfo, 26)

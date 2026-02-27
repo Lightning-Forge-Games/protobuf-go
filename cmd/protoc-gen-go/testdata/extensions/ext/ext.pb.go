@@ -905,7 +905,7 @@ const file_cmd_protoc_gen_go_testdata_extensions_ext_ext_proto_rawDesc = "" +
 	"2+.goproto.protoc.extension.ext.RepeatedGroupR\rrepeatedgroup:\x80\x01\n" +
 	"\x10extendable_field\x12*.goproto.protoc.extension.base.BaseMessage\x18\x90\x03 \x01(\v2(.goproto.protoc.extension.ext.ExtendableR\x0fextendableField:`\n" +
 	"\x17extendable_string_field\x12(.goproto.protoc.extension.ext.Extendable\x18\x01 \x01(\tR\x15extendableStringField:\xab\x01\n" +
-	"\x15message_set_extension\x12:.goproto.protoc.extension.base.MessageSetWireFormatMessage\x18e \x01(\v2;.goproto.protoc.extension.ext.MessageSetWireFormatExtensionR\x13messageSetExtensionBFZDgithub.com/Lightning-Forge-Games/protobuf-go/cmd/protoc-gen-go/testdata/extensions/ext"
+	"\x15message_set_extension\x12:.goproto.protoc.extension.base.MessageSetWireFormatMessage\x18e \x01(\v2;.goproto.protoc.extension.ext.MessageSetWireFormatExtensionR\x13messageSetExtensionBFZDgoogle.golang.org/protobuf/cmd/protoc-gen-go/testdata/extensions/ext"
 
 var (
 	file_cmd_protoc_gen_go_testdata_extensions_ext_ext_proto_rawDescOnce sync.Once

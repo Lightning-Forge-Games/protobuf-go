@@ -1280,7 +1280,7 @@ const file_internal_testprotos_editionsfuzztest_test2_proto_rawDesc = "" +
 	"\x03BAZ\x10\x02\x12\x10\n" +
 	"\x03NEG\x10\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01B\r\n" +
 	"\voneof_fieldB\x10\n" +
-	"\x0eoneof_optionalBAZ?github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/editionsfuzztest"
+	"\x0eoneof_optionalBAZ?google.golang.org/protobuf/internal/testprotos/editionsfuzztest"
 
 var (
 	file_internal_testprotos_editionsfuzztest_test2_proto_rawDescOnce sync.Once

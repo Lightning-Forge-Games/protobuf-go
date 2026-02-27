@@ -177,7 +177,7 @@ const file_internal_testprotos_legacy_legacy_proto_rawDesc = "" +
 	"\x03f10\x18\n" +
 	" \x01(\v2*.google.golang.org.proto3_20180814.MessageR\x03f10\x12<\n" +
 	"\x03f11\x18\v \x01(\v2*.google.golang.org.proto2_20190205.MessageR\x03f11\x12<\n" +
-	"\x03f12\x18\f \x01(\v2*.google.golang.org.proto3_20190205.MessageR\x03f12B7Z5github.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/legacyb\x06proto3"
+	"\x03f12\x18\f \x01(\v2*.google.golang.org.proto3_20190205.MessageR\x03f12B7Z5google.golang.org/protobuf/internal/testprotos/legacyb\x06proto3"
 
 var (
 	file_internal_testprotos_legacy_legacy_proto_rawDescOnce sync.Once

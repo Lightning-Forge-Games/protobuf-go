@@ -1289,7 +1289,7 @@ const file_internal_testprotos_required_required_hybrid_required_hybrid_proto_ra
 	"\x05Group\x12M\n" +
 	"\x05group\x18\x01 \x01(\v2..hybrid.goproto.proto.testrequired.Group.GroupB\a\xaa\x01\x04\b\x03(\x02R\x05group\x1a\x15\n" +
 	"\x05Group\x12\f\n" +
-	"\x01v\x18\x01 \x01(\x05R\x01vBQZGgithub.com/Lightning-Forge-Games/protobuf-go/internal/testprotos/required/required_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
+	"\x01v\x18\x01 \x01(\x05R\x01vBQZGgoogle.golang.org/protobuf/internal/testprotos/required/required_hybrid\x92\x03\x05\xd2>\x02\x10\x02b\beditionsp\xe8\a"
 
 var file_internal_testprotos_required_required_hybrid_required_hybrid_proto_msgTypes = make([]protoimpl.MessageInfo, 17)
 var file_internal_testprotos_required_required_hybrid_required_hybrid_proto_goTypes = []any{
