@@ -19,6 +19,7 @@ import (
 	"google.golang.org/protobuf/internal/genid"
 	"google.golang.org/protobuf/internal/pragma"
 	"google.golang.org/protobuf/internal/set"
+	"google.golang.org/protobuf/internal/strs"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
@@ -194,8 +195,12 @@ func (d decoder) unmarshalMessage(m protoreflect.Message, skipTypeURL bool) erro
 		}
 
 		if fd == nil {
+			// Reserved names are considered known.
+			reservedNames := messageDesc.ReservedNames()
+			isReserved := reservedNames.Has(protoreflect.Name(strs.JSONCamelCase(name)))
+
 			// Field is unknown.
-			if d.opts.DiscardUnknown {
+			if isReserved || d.opts.DiscardUnknown {
 				if err := d.skipJSONValue(); err != nil {
 					return err
 				}
