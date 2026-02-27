@@ -197,7 +197,7 @@ func (d decoder) unmarshalMessage(m protoreflect.Message, skipTypeURL bool) erro
 		if fd == nil {
 			// Reserved names are considered known.
 			reservedNames := messageDesc.ReservedNames()
-			isReserved := reservedNames.Has(protoreflect.Name(strs.JSONCamelCase(name)))
+			isReserved := reservedNames.Has(protoreflect.Name(name)) || reservedNames.Has(protoreflect.Name(strs.JSONSnakeCase(name)))
 
 			// Field is unknown.
 			if isReserved || d.opts.DiscardUnknown {
